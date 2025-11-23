@@ -1,0 +1,90 @@
+
+
+# -------------------------------------------------
+# Node.js & JavaScript / TypeScript Projects
+# -------------------------------------------------
+ 
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+ 
+# Build & Production
+build/
+dist/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.vuepress/dist/
+.svelte-kit/
+.vitepress/
+.temp/
+ 
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+ 
+# Diagnostic Reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+ 
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+ 
+# Coverage / Test Outputs
+coverage/
+*.lcov
+.nyc_output/
+lib-cov/
+.grunt/
+ 
+# Environment Files
+.env
+.env.*
+!.env.example
+ 
+# Cache & Temp Files
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tsbuildinfo
+.npm
+.yarn-integrity
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+ 
+# IDE & Editor Files
+.DS_Store
+.vscode/
+.vscode-test/
+.idea/
+*.swp
+ 
+# Optional Files
+*.tgz
+bower_components/
+jspm_packages/
+web_modules/
+.docusaurus/
+.serverless/
+.fusebox/
+.dynamodb/
+.firebase/
+.tern-port
+ 
+# Docker (optional)
+Dockerfile
+docker-compose.yml
+
